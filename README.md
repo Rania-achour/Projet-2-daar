@@ -1,6 +1,8 @@
 # Projet-2-daar
 
 Projet Realiser Par : ACHOUR Rania / KHAZNADJI Neila / ALIM Rayan / DE LARA Laiza
+
+
 le but de ce projet et d'indexer des cvs dans Elasticsearch en passant par deux point essentielle: 
 - Indexe des données du CV dans l’instance Elasticsearch lors de son ajout.
 - La recherche en se basant sur des terme
