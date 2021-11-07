@@ -1,5 +1,6 @@
 # Projet-2-daar
 
+Projet Realiser Par : ACHOUR Rania / KHAZNADJI Neila / ALIM Rayan / DE LARA Laiza
 le but de ce projet et d'indexer des cvs dans Elasticsearch en passant par deux point essentielle: 
 - Indexe des données du CV dans l’instance Elasticsearch lors de son ajout.
 - La recherche en se basant sur des terme
@@ -12,7 +13,7 @@ Nous avons creer un folder CV qui contien tout les PDF qu'on veut les indexer et
 
 Partie Prod :
 maintenant si on veut visualiser le resultat sur kibana, on doit d'abbord installer puis  elasticsearch  en tappant sur le cmd de bin (elasticsearch), ensuite installer et et lancer kibana sur cmd de bin en tappant (kibana)  une fois il demarre, on ouvre l'interface: "http://localhost:5601" puis sur devtools en ecris la commande
- (GET pdf/_doc/0  pour le cv1  ou GET pdf/_doc/0  pour le cv1 ) si on veut afficher l'indexation du repertoire CV qui contient deux cvs donc deux id différent (0 et 1) on peut avoir autant de cv qu'on veut donc autant d'id qu'on veut
+   (GET pdf/_doc/0  pour le cv1  ou GET pdf/_doc/0  pour le cv1 ) si on veut afficher l'indexation du repertoire CV qui contient deux cvs donc deux id différent (0 et 1) on peut avoir autant de cv qu'on veut donc autant d'id qu'on veut
 
  la meme chose si on veut visualiser sur kibana le resultat de recherche sur ce qu'on a indexer, on ecris 
  GET pdf/_search
